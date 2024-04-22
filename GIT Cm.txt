@@ -62,7 +62,11 @@ To list : git config -l
 #git rm --cached main.txt ==>to remove a file from Git without deleting it from your filesystem.
 #git branch -m <new_name> ==>to rename same branch.
 #git branch -m <old_name> <new_name> ==> To rename a different branch
+
 #git stash ==> temporarily stores your working directory's modifications, allowing you to switch branches without discarding your current progress.
+#git stash pop ==> this command used to remove form stash store
+#git stash apply ==> this command used to aplly continue to work progress.
+
 #git merge --squash ==> all commits from a specified feature branch into a single commit when merging into the target branch
 
 #git pull http://uhje8575hv(paste link of repostery)
