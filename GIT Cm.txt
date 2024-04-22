@@ -62,6 +62,12 @@ To list : git config -l
 #git clone http://uhje8575hv(paste link of repostery) 
 #git commit --amend ===>Changing the Last Commit: 
 # git push --set-upstream origin master
+
+
+Create an Branch from GUI
+#git fetch
+#git branch -a
+#git checkout remotes/origin/UAT
 #git push origin HEAD:UAT 
 
 
