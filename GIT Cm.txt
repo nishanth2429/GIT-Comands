@@ -61,6 +61,7 @@ To list : git config -l
 #git pull http://uhje8575hv(paste link of repostery)
 #git clone http://uhje8575hv(paste link of repostery) 
 #git commit --amend ===>Changing the Last Commit: 
+# git push --set-upstream origin master
 
 
 feature ---> develop (non-prod:dev,qa)
