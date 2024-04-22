@@ -60,6 +60,8 @@ To list : git config -l
 #git cherry-pick eu6968(commit id) ====>it's cheery pick comment
 
 #git rm --cached main.txt ==>to remove a file from Git without deleting it from your filesystem.
+#git branch -m <new_name> ==>to rename same branch.
+#git branch -m <old_name> <new_name> ==> To rename a different branch
 
 #git pull http://uhje8575hv(paste link of repostery)
 #git clone http://uhje8575hv(paste link of repostery) 
