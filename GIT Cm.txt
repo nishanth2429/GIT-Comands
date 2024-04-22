@@ -68,7 +68,23 @@ Create an Branch from GUI
 #git fetch
 #git branch -a
 #git checkout remotes/origin/UAT
-#git push origin HEAD:UAT 
+#git push origin HEAD:UAT
+
+
+merge using aws cli:
+1.Need to do changes in master branch and push to github repo
+2.switch to dev branch
+3.merge to dev from master
+4.push changes to gitrepo
+ 
+commads:
+git checkout master
+git add <file_name>
+git commit -m "initail commit"
+git push origin master -f
+git checkout dev
+git merge dev master
+git push origin dev -f
 
 
 feature ---> develop (non-prod:dev,qa)
