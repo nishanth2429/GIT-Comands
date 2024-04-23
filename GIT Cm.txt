@@ -50,7 +50,7 @@ To list : git config -l
 #git diff =====> difference between working directoy to stagging area
 #git diff --staged ====> difference between staging area to local repo
 #git log --oneline ====> it will show the log of commit
-#git blame sample(filename) ====>it will show the information about the line by line file
+#git blame sample(filename) ====>it will show the information about the line by line file who modified
 #git show 5748bfh(commit id) ====>it will show the particular commit id information
 #git branch =====>it will show in which branch currently we are in.
 #git branch dev(feature branch name)====>it will create an feature branch 
