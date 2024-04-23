@@ -67,6 +67,9 @@ To list : git config -l
 #git stash pop ==> this command used to remove form stash store
 #git stash apply ==> this command used to aplly continue to work progress.
 
+
+HEAD` refers to the last commit on the current branch, `working tree` is the set of files in your directory, and `index` (or staging area) is a staging area for commits.
+
 #git merge --squash ==> all commits from a specified feature branch into a single commit when merging into the target branch
 
 #git pull http://uhje8575hv(paste link of repostery)
