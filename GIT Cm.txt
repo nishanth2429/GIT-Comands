@@ -62,8 +62,8 @@ To list : git config -l
 a rebase does not create a new commit that combines the changes from both branches. 
 Instead, it applies the changes from one branch onto another branch, creating a linear history.
 
-#git cherry-pick eu6968(commit id) ====>it's cheery pick comment -->
-What are commit changes done current branch .same commit need to modified some other different branch . in that time we need use cherry-pick
+#git cherry-pick eu6968(commit id) ====>it's cheery pick comment -->is used to apply a specific commit from one branch to another.
+
 
 #git rm --cached main.txt ==>to remove a file from Git without deleting it from your filesystem.
 #git branch -m <new_name> ==>to rename same branch.
