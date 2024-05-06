@@ -56,7 +56,12 @@ To list : git config -l
 #git branch dev(feature branch name)====>it will create an feature branch 
 #git checkout dev, #git checkout master ====>it will switch over to one branch to another branch.
 #git merge dev ====>it merge the date master to dev
-#git rebase master ====>it is rebase feature
+
+
+#git rebase master ====>it is rebase feature -->changes from one branch into another by rewriting the commit history.
+a rebase does not create a new commit that combines the changes from both branches. 
+Instead, it applies the changes from one branch onto another branch, creating a linear history.
+
 #git cherry-pick eu6968(commit id) ====>it's cheery pick comment
 
 #git rm --cached main.txt ==>to remove a file from Git without deleting it from your filesystem.
