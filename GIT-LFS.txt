@@ -1,3 +1,6 @@
+Bitbucket to github migration --> (https://medium.com/@jaspreet.sethi.indiamart/bitbucket-to-github-migration-a-complete-guide-3ad59c6665f3)
+
+
 Git lfs link --> https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
 #git init
 #git remote add origin https://github.com/nishanth2429/GIT-LFS.git
