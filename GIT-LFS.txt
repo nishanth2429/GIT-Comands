@@ -1,1 +1,13 @@
 Git lfs link --> https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+#git init
+#git remote add origin https://github.com/nishanth2429/GIT-LFS.git
+
+1==>To Push data more than 100 Mb we follow the the LFS Large file storage.
+2==> First we need to download the LFS from internet by using this link -(https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage)
+3==>We need Git also.
+4==> $ git lfs install by using this command we verify that.
+Now “.Zip” file  size is more than 138Mb
+5==> $ git lfs track "*.zip"  In each Git repository where you want to use Git LFS, select the file types you'd like Git LFS to manage.
+6==>$ git add .  (filename)
+6==> $ git commit -m "LFS"
+7==>$git push origin main or git push --set-upstream origin main
