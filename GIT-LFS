@@ -1,5 +1,11 @@
 Bitbucket to github migration --> (https://medium.com/@jaspreet.sethi.indiamart/bitbucket-to-github-migration-a-complete-guide-3ad59c6665f3)
 
+1==> git clone --mirror https://nishanth_d@bitbucket.org/nishanth-project1/application.git ===>
+2==>git remote set-url origin https://github.com/nishanth2429/BitBucket-to-Github.git ==>
+3==> git remote add bitbucket https://nishanth_d@bitbucket.org/nishanth-project1/application.git ==>
+4==> git push origin --mirror
+
+
 
 Git lfs link --> https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
 #git init
