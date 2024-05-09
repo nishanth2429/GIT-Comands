@@ -8,6 +8,8 @@ sudo apt install gh
 
 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
 
+token bitbucket= ATBBRaPGRn9PjL6jFsW686eWGWZ5E517FAC9
+
 
 To install GIT in Linux:
 #yum install git
